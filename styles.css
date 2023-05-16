@@ -32,7 +32,7 @@ nav ul li a {
 
 /* Hero Section Styles */
 .hero {
-  background-image: url('hero-image.jpg');
+  background-image: url('hero-image.png');
   background-size: cover;
   background-position: center;
   text-align: center;
