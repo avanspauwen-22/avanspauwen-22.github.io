@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Featured Items Section Styles */
+.featured-items {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.featured-items h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.item {
+margin-bottom: 40px;
+}
+
+.item img {
+width: 300px;
+height: 200px;
+object-fit: cover;
+margin-bottom: 10px;
+}
+
+.item h3 {
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
